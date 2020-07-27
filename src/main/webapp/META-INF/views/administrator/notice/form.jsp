@@ -27,7 +27,9 @@
 	<acme:form-url code="administrator.notice.form.label.first-optional-link" path="firstOptionalLink" />
 	<acme:form-url code="administrator.notice.form.label.second-optional-link" path="secondOptionalLink" />
 
-	<acme:form-checkbox test="${command == 'create'}" code="administrator.notice.form.label.accept" path="accept" />
+	<jstl:if test="${command == 'create'}">
+	<acme:form-checkbox code="administrator.notice.form.label.accept" path="accept" />
+	</jstl:if>
 
 	<acme:form-submit test="${command == 'create'}" code="administrator.notice.form.button.create"
 		action="/administrator/notice/create" />
