@@ -18,4 +18,10 @@ administrator.notice.form.label.deadline = Fecha de vencimiento
 administrator.notice.form.label.body = Cuerpo
 administrator.notice.form.label.first-optional-link = Primer enlace opcional
 administrator.notice.form.label.second-optional-link = Segundo enlace opcional
+administrator.notice.form.label.accept = Aceptar
+
+administrator.notice.form.button.create = Crear
 administrator.notice.form.button.return = Volver
+
+administrator.notice.error.must-accept = Debe aceptar
+administrator.notice.error.deadline = La fecha de vencimiento debe ser posterior a la fecha actual
