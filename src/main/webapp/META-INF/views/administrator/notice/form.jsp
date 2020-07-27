@@ -24,7 +24,10 @@
 	<acme:form-textarea code="administrator.notice.form.label.body" path="body"/>
 	<acme:form-url code="administrator.notice.form.label.first-optional-link" path="firstOptionalLink"/>
 	<acme:form-url code="administrator.notice.form.label.second-optional-link" path="secondOptionalLink"/>
+	
+	<acme:form-checkbox code="administrator.notice.form.label.accept" path="accept"/>
 
+	<acme:form-submit code="administrator.notice.form.button.create" action="/administrator/notice/create"/>
 	<acme:form-return code="administrator.notice.form.button.return"/>
 
 </acme:form>
