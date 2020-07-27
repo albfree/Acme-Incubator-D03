@@ -1,0 +1,27 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.tecnology-record.list.label.title = Title
+authenticated.tecnology-record.list.label.activitySector = Sector
+authenticated.tecnology-record.list.label.inventorsName = Inventor
+authenticated.tecnology-record.list.label.description = Description
+authenticated.tecnology-record.list.label.website = Website
+authenticated.tecnology-record.list.label.email = Email
+authenticated.tecnology-record.list.label.indicator = Indicator
+authenticated.tecnology-record.list.label.starsRate = Rate
+
+authenticated.tecnology-record.form.label.title = Title
+authenticated.tecnology-record.form.label.activitySector = Sector
+authenticated.tecnology-record.form.label.inventorsName = Inventor
+authenticated.tecnology-record.form.label.description = Description
+authenticated.tecnology-record.form.label.website = Website
+authenticated.tecnology-record.form.label.email = Email
+authenticated.tecnology-record.form.label.indicator = Indicator
+authenticated.tecnology-record.form.label.starsRate = Rate
