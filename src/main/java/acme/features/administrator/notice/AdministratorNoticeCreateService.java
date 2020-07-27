@@ -72,12 +72,22 @@ public class AdministratorNoticeCreateService implements AbstractCreateService<A
 		boolean isAccepted;
 
 		// Validamos que el check de confirmación esté marcado
-		isAccepted = request.getModel().getBoolean("accept");
+		try {
+			isAccepted = request.getModel().getBoolean("accept");
+		} catch (NullPointerException e) {
+			isAccepted = false;
+		}
+
 		errors.state(request, isAccepted, "accept", "administrator.notice.error.must-accept");
 
-		// Validamos que la fecha de vencimiento no sea anterior a la fecha actual
-		errors.state(request, !request.getModel().getDate("deadline").before(new Date()), "deadline", "administrator.notice.error.deadline");
-
+		/**
+		 * Validamos que la fecha de vencimiento no sea anterior a la fecha actual si es distinto
+		 * de null, puesto que la validación del nulo ya la hace el framework por defecto por el
+		 * NotNull en la propiedad de la entidad
+		 **/
+		if (request.getModel().getDate("deadline") != null) {
+			errors.state(request, !request.getModel().getDate("deadline").before(new Date()), "deadline", "administrator.notice.error.deadline");
+		}
 	}
 
 	@Override
