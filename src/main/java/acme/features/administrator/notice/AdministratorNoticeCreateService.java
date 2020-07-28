@@ -33,7 +33,7 @@ public class AdministratorNoticeCreateService implements AbstractCreateService<A
 		assert entity != null;
 		assert errors != null;
 
-		request.bind(entity, errors);
+		request.bind(entity, errors, "creationDate");
 	}
 
 	@Override
@@ -42,7 +42,8 @@ public class AdministratorNoticeCreateService implements AbstractCreateService<A
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "headerPicture", "title", "creationDate", "deadline", "body", "firstOptionalLink", "secondOptionalLink");
+		request.unbind(entity, model, "headerPicture", "title", "deadline", "body", "firstOptionalLink", "secondOptionalLink");
+		model.setAttribute("accept", "false");
 	}
 
 	@Override
@@ -69,24 +70,20 @@ public class AdministratorNoticeCreateService implements AbstractCreateService<A
 		assert entity != null;
 		assert errors != null;
 
-		boolean isAccepted;
+		boolean isAccepted = request.getModel().getBoolean("accept");
 
 		// Validamos que el check de confirmación esté marcado
-		try {
-			isAccepted = request.getModel().getBoolean("accept");
-		} catch (NullPointerException e) {
-			isAccepted = false;
-		}
 
 		errors.state(request, isAccepted, "accept", "administrator.notice.error.must-accept");
 
-		/**
+		/*
 		 * Validamos que la fecha de vencimiento no sea anterior a la fecha actual si es distinto
 		 * de null, puesto que la validación del nulo ya la hace el framework por defecto por el
 		 * NotNull en la propiedad de la entidad
-		 **/
-		if (request.getModel().getDate("deadline") != null) {
-			errors.state(request, !request.getModel().getDate("deadline").before(new Date()), "deadline", "administrator.notice.error.deadline");
+		 */
+
+		if (!errors.hasErrors("deadline")) {
+			errors.state(request, entity.getDeadline().after(new Date()), "deadline", "administrator.notice.error.deadline");
 		}
 	}
 
