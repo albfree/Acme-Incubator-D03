@@ -83,15 +83,15 @@ public class AdministratorChallengeUpdateService implements AbstractUpdateServic
 
 		if (!errors.hasErrors("rookieReward")) {
 			//			errors.state(request, !entity.getRookieReward().equals(null), "rookieReward", "administrator.challenge.error.reward-null");
-			errors.state(request, !entity.getRookieReward().getCurrency().equals("€") || !entity.getRookieReward().getCurrency().equals("EUR"), "rookieReward", "administrator.challenge.error.reward-not-euro");
+			errors.state(request, entity.getRookieReward().getCurrency().equals("€") || entity.getRookieReward().getCurrency().equals("EUR"), "rookieReward", "administrator.challenge.error.reward-not-euro");
 		}
 		if (!errors.hasErrors("averageReward")) {
 			//			errors.state(request, !entity.getAverageReward().equals(null), "averageReward", "administrator.challenge.error.reward-null");
-			errors.state(request, !entity.getAverageReward().getCurrency().equals("€") || !entity.getAverageReward().getCurrency().equals("EUR"), "averageReward", "administrator.challenge.error.reward-not-euro");
+			errors.state(request, entity.getAverageReward().getCurrency().equals("€") || entity.getAverageReward().getCurrency().equals("EUR"), "averageReward", "administrator.challenge.error.reward-not-euro");
 		}
 		if (!errors.hasErrors("expertReward")) {
 			//			errors.state(request, !entity.getExpertReward().equals(null), "expertReward", "administrator.challenge.error.reward-null");
-			errors.state(request, !entity.getExpertReward().getCurrency().equals("€") || !entity.getExpertReward().getCurrency().equals("EUR"), "expertReward", "administrator.challenge.error.reward-not-euro");
+			errors.state(request, entity.getExpertReward().getCurrency().equals("€") || entity.getExpertReward().getCurrency().equals("EUR"), "expertReward", "administrator.challenge.error.reward-not-euro");
 		}
 		if (entity.getDeadline() != null) {
 			errors.state(request, entity.getDeadline().after(minimum), "deadline", "administrator.challenge.error.future-dead");
