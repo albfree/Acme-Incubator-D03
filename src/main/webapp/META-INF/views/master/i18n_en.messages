@@ -66,6 +66,8 @@ master.menu.administrator = Administrator
 master.menu.administrator.notice.list = Notice's list
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.customization = Customization Parameters
+master.menu.administrator.challenge.list = Challenges
+master.menu.administrator.challenge.create = New Challenge
 master.menu.administrator.shutdown = Shut down
 
 # master.menu.authenticated ###################################################
