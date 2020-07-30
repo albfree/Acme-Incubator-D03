@@ -17,6 +17,8 @@ administrator.overture.form.label.maxMoney = Maximum money
 administrator.overture.form.label.email = Email
 
 administrator.overture.form.button.create = Create
+administrator.overture.form.button.update = Update
+administrator.overture.form.button.delete = Delete
 administrator.overture.form.button.return = Return
 
 administrator.overture.error.deadline = The expiration date must be after the current date

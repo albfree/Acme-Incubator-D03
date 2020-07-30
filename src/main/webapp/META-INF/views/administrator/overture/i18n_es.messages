@@ -17,6 +17,8 @@ administrator.overture.form.label.maxMoney = Dinero máximo
 administrator.overture.form.label.email = Email
 
 administrator.overture.form.button.create = Crear
+administrator.overture.form.button.update = Actualizar
+administrator.overture.form.button.delete = Eliminar
 administrator.overture.form.button.return = Volver
 
 administrator.overture.error.deadline = La fecha de vencimiento debe ser posterior a la fecha actual
