@@ -51,15 +51,6 @@ public class AdministratorNoticeCreateService implements AbstractCreateService<A
 		assert request != null;
 
 		Notice result = new Notice();
-		Date moment = new Date(System.currentTimeMillis() - 1);
-
-		result.setHeaderPicture("");
-		result.setTitle("");
-		result.setCreationDate(moment);
-		result.setDeadline(moment);
-		result.setBody("");
-		result.setFirstOptionalLink("");
-		result.setSecondOptionalLink("");
 
 		return result;
 	}

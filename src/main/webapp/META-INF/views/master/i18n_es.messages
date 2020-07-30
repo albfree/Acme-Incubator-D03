@@ -63,6 +63,8 @@ master.menu.anonymous.lobatoBulletin.create = Crear lobatoBulletin
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
+master.menu.administrator.overture.list = Lista de propuestas
+master.menu.administrator.overture.create = Crear una propuesta
 master.menu.administrator.notice.list = Lista de avisos
 master.menu.administrator.notice.create = Crear un aviso
 master.menu.administrator.user-accounts = Cuentas de usuario
