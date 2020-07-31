@@ -25,3 +25,8 @@ authenticated.tecnology-record.form.label.website = Website
 authenticated.tecnology-record.form.label.email = Email
 authenticated.tecnology-record.form.label.indicator = Indicator
 authenticated.tecnology-record.form.label.starsRate = Rate
+
+administrator.tecnology-record.form.button.update = Update
+administrator.tecnology-record.form.button.delete = Delete
+administrator.tecnology-record.form.button.create = Create
+authenticated.tecnology-record.form.button.return = Return

@@ -96,6 +96,13 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.tecnology-record.list" action="/administrator/tecnology-record/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.tool-record.list" action="/administrator/tool-record/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.tecnology-record.create" action="/administrator/tecnology-record/create"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.tool-record.create" action="/administrator/tool-record/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">

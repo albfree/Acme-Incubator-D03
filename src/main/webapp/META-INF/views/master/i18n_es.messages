@@ -74,6 +74,8 @@ master.menu.administrator.customization = Parámetros de customización
 master.menu.administrator.challenge.list = Desafíos
 master.menu.administrator.challenge.create = Nuevo Desafío
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.tool-record.create = Crear Registro de herramientas
+master.menu.administrator.tecnology-record.create = Crear Registro de Tecnologia
 
 # master.menu.authenticated ###################################################
 

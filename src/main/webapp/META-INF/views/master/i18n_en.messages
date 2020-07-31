@@ -74,6 +74,8 @@ master.menu.administrator.customization = Customization Parameters
 master.menu.administrator.challenge.list = Challenges
 master.menu.administrator.challenge.create = New Challenge
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.tool-record.create = Create Tool Record
+master.menu.administrator.tecnology-record.create = Create Tecnology Record
 
 # master.menu.authenticated ###################################################
 
