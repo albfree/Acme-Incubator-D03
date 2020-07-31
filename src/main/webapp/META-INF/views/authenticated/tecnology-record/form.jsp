@@ -25,4 +25,7 @@
 	<acme:form-textbox code="authenticated.tecnology-record.list.label.indicator" path="indicator" />
 	<acme:form-textbox code="authenticated.tecnology-record.list.label.starsRate" path="starsRate" />
 
+	<acme:form-return
+	code="authenticated.tool-record.form.button.return"/>
+	
 </acme:form>

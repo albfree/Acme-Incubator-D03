@@ -25,3 +25,8 @@ authenticated.tool-record.form.label.website = Website
 authenticated.tool-record.form.label.email = Email
 authenticated.tool-record.form.label.indicator = Indicator
 authenticated.tool-record.form.label.starsRate = Rate
+
+administrator.tool-record.form.button.update = Update
+administrator.tool-record.form.button.delete = Delete
+administrator.tool-record.form.button.create = Create
+authenticated.tool-record.form.button.return = Return

@@ -67,6 +67,8 @@ master.menu.administrator.notice.list = Lista de avisos
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.customization = Parámetros de customización 
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.tool-record.create = Crear Registro de herramientas
+master.menu.administrator.tecnology-record.create = Crear Registro de Tecnologia
 
 # master.menu.authenticated ###################################################
 
