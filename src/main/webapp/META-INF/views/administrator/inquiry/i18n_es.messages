@@ -17,3 +17,11 @@ administrator.inquiry.form.label.maxMoney = Dinero máximo
 administrator.inquiry.form.label.email = Email
 
 administrator.inquiry.form.button.return = Volver
+
+
+administrator.inquiry.form.button.update = Actualizar
+administrator.inquiry.form.button.create = Crear
+administrator.inquiry.form.button.delete = Eliminar
+
+administrator.inquiry.error.deadline = La fecha de vencimiento debe ser posterior a la fecha actual
+administrator.inquiry.error.maxMoneyLowerThanMin = El dinero mínimo debe ser menor que el dinero máximo

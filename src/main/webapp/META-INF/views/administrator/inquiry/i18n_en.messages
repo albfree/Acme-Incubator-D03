@@ -19,6 +19,15 @@ administrator.inquiry.form.label.email = Email
 administrator.inquiry.form.button.return = Return
 
 
+administrator.inquiry.form.button.update = Update
+administrator.inquiry.form.button.create = Create
+administrator.inquiry.form.button.delete = Delete
+
+administrator.inquiry.error.deadline = The expiration date must be after the current date
+administrator.inquiry.error.maxMoneyLowerThanMin = The minimum money must be less than the maximum money
+
+
+
 
 
 

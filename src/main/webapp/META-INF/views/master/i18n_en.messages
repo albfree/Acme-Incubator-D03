@@ -65,6 +65,7 @@ master.menu.anonymous.lobatoBulletin.create = Create lobatoBulletin
 master.menu.administrator = Administrator
 master.menu.administrator.notice.list = Notice's list
 master.menu.administrator.inquiry.list = Inquiry's list
+master.menu.administrator.inquiry.create = Create inquiry
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.customization = Customization Parameters
 master.menu.administrator.shutdown = Shut down
