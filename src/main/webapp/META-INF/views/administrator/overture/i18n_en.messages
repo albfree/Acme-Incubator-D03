@@ -22,6 +22,7 @@ administrator.overture.form.button.delete = Delete
 administrator.overture.form.button.return = Return
 
 administrator.overture.error.deadline = The expiration date must be after the current date
+administrator.overture.error.maxMoneyLowerThanMin = The minimum money must be less than the maximum money
 
 
 

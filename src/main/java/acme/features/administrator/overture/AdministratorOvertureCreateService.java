@@ -72,6 +72,10 @@ public class AdministratorOvertureCreateService implements AbstractCreateService
 		if (!errors.hasErrors("deadline")) {
 			errors.state(request, entity.getDeadline().after(new Date()), "deadline", "administrator.overture.error.deadline");
 		}
+
+		if (!errors.hasErrors("minMoney") && !errors.hasErrors("maxMoney")) {
+			errors.state(request, entity.getMinMoney().getAmount() < entity.getMaxMoney().getAmount(), "minMoney", "administrator.overture.error.maxMoneyLowerThanMin");
+		}
 	}
 
 	@Override

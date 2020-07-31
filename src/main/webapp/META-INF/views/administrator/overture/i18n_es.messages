@@ -22,3 +22,4 @@ administrator.overture.form.button.delete = Eliminar
 administrator.overture.form.button.return = Volver
 
 administrator.overture.error.deadline = La fecha de vencimiento debe ser posterior a la fecha actual
+administrator.overture.error.maxMoneyLowerThanMin = El dinero mínimo debe ser menor que el dinero máximo
