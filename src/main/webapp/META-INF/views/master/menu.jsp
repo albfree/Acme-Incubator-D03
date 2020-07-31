@@ -105,7 +105,6 @@
 
 
 		<acme:menu-option code="master.menu.administrator.create" access="hasRole('Administrator')">
-
 			<acme:menu-suboption code="master.menu.administrator.overture.create" action="/administrator/overture/create" />
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.notice.create" action="/administrator/notice/create" />

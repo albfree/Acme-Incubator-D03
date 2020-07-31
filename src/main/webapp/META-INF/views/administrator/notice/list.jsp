@@ -21,4 +21,3 @@
 	<acme:list-column code="administrator.notice.list.label.title" path="title" width="50%" />
 
 </acme:list>
-
