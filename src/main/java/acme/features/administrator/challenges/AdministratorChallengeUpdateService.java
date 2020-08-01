@@ -78,8 +78,8 @@ public class AdministratorChallengeUpdateService implements AbstractUpdateServic
 		Date minimum;
 
 		calendar = new GregorianCalendar();
+		calendar.add(Calendar.MONTH, 1);
 		minimum = calendar.getTime();
-		minimum.setMonth(minimum.getMonth() + 1);
 
 		if (!errors.hasErrors("rookieReward")) {
 			//			errors.state(request, !entity.getRookieReward().equals(null), "rookieReward", "administrator.challenge.error.reward-null");
