@@ -481,7 +481,7 @@ TecnologyRecord
 + description: String {NotBlank}
 + website: String {NotBlank,URL}
 + email: String {NotBlank, email}
-+ indicator: String {NotBlank, Pattern(regexp = "^(open_source|close_source)$")}
++ indicator: String {NotBlank, Pattern(regexp = "^(open-source|closed-source)$")}
 + starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
     <additional_attributes/>
   </element>
@@ -502,7 +502,7 @@ ToolRecord
 + description: String {NotBlank}
 + website: String {NotBlank,URL}
 + email: String {NotBlank, email}
-+ indicator: String {NotBlank, Pattern(regexp = "^(open_source|close_source)$")}
++ indicator: String {NotBlank, Pattern(regexp = "^(open-source|closed-source)$")}
 + starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
     <additional_attributes/>
   </element>
