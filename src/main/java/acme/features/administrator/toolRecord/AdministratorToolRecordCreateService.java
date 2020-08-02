@@ -19,7 +19,7 @@ public class AdministratorToolRecordCreateService implements AbstractCreateServi
 	@Autowired
 	AdministratorToolRecordRepository repository;
 
-	// AbstractListService<Administrator, TecnologyRecord>
+	// AbstractListService<Administrator, TechnologyRecord>
 
 
 	@Override
@@ -34,7 +34,7 @@ public class AdministratorToolRecordCreateService implements AbstractCreateServi
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indicator", "starsRate");
+		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indication", "starsRate");
 	}
 
 	@Override

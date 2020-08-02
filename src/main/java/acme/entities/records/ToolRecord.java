@@ -47,7 +47,7 @@ public class ToolRecord extends DomainEntity {
 
 	@NotBlank
 	@Pattern(regexp = "^(open-source|closed-source)$")
-	private String				indicator;
+	private String				indication;
 
 	@Min(-5)
 	@Max(5)

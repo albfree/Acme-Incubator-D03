@@ -22,9 +22,8 @@
 	<acme:form-textarea code="authenticated.tool-record.form.label.description" path="description" />
 	<acme:form-url code="authenticated.tool-record.form.label.website" path="website" />
 	<acme:form-textbox code="authenticated.tool-record.form.label.email" path="email" />	
-	<acme:form-textbox code="authenticated.tool-record.form.label.indicator" path="indicator" />
+	<acme:form-textbox code="authenticated.tool-record.form.label.indication" path="indication" />
 	<acme:form-textbox code="authenticated.tool-record.form.label.starsRate" path="starsRate" />
 
-	<acme:form-return
-	code="authenticated.tool-record.form.button.return"/>
+	<acme:form-return code="authenticated.tool-record.form.label.return"/>
 </acme:form>

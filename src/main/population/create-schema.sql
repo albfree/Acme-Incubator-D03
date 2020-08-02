@@ -155,13 +155,13 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `tecnology_record` (
+    create table `technology_record` (
        `id` integer not null,
         `version` integer not null,
         `activity_sector` varchar(255),
         `description` varchar(255),
         `email` varchar(255),
-        `indicator` varchar(255),
+        `indication` varchar(255),
         `inventors_name` varchar(255),
         `stars_rate` integer,
         `title` varchar(255),
@@ -175,7 +175,7 @@
         `activity_sector` varchar(255),
         `description` varchar(255),
         `email` varchar(255),
-        `indicator` varchar(255),
+        `indication` varchar(255),
         `inventors_name` varchar(255),
         `stars_rate` integer,
         `title` varchar(255),

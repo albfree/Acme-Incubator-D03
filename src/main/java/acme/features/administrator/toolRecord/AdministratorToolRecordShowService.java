@@ -18,7 +18,7 @@ public class AdministratorToolRecordShowService implements AbstractShowService<A
 	@Autowired
 	AdministratorToolRecordRepository repository;
 
-	// AbstractListService<Authenticated, TecnologyRecord>
+	// AbstractListService<Authenticated, TechnologyRecord>
 
 
 	@Override
@@ -33,7 +33,7 @@ public class AdministratorToolRecordShowService implements AbstractShowService<A
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indicator", "starsRate");
+		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indication", "starsRate");
 	}
 
 	@Override

@@ -18,8 +18,6 @@ public class AuthenticatedToolRecordShowService implements AbstractShowService<A
 	@Autowired
 	AuthenticatedToolRecordRepository repository;
 
-	// AbstractListService<Authenticated, TecnologyRecord>
-
 
 	@Override
 	public boolean authorise(final Request<ToolRecord> request) {
@@ -33,7 +31,7 @@ public class AuthenticatedToolRecordShowService implements AbstractShowService<A
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indicator", "starsRate");
+		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indication", "starsRate");
 	}
 
 	@Override

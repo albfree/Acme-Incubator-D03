@@ -16,13 +16,14 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.tool-record.list.label.title" path="title" />
-	<acme:form-textbox code="anonymous.tool-record.list.label.activitySector" path="activitySector" />
-	<acme:form-textbox code="anonymous.tool-record.list.label.inventorsName" path="inventorsName" />	
-	<acme:form-textarea code="anonymous.tool-record.list.label.description" path="description" />
-	<acme:form-url code="anonymous.tool-record.list.label.website" path="website" />
-	<acme:form-textbox code="anonymous.tool-record.list.label.email" path="email" />	
-	<acme:form-textbox code="anonymous.tool-record.list.label.indicator" path="indicator" />
-	<acme:form-textbox code="anonymous.tool-record.list.label.starsRate" path="starsRate" />
+	<acme:form-textbox code="anonymous.tool-record.form.label.title" path="title" />
+	<acme:form-textbox code="anonymous.tool-record.form.label.activitySector" path="activitySector" />
+	<acme:form-textbox code="anonymous.tool-record.form.label.inventorsName" path="inventorsName" />	
+	<acme:form-textarea code="anonymous.tool-record.form.label.description" path="description" />
+	<acme:form-url code="anonymous.tool-record.form.label.website" path="website" />
+	<acme:form-textbox code="anonymous.tool-record.form.label.email" path="email" />	
+	<acme:form-textbox code="anonymous.tool-record.form.label.indication" path="indication"/>
+	<acme:form-textbox code="anonymous.tool-record.form.label.starsRate" path="starsRate" />
 
+	<acme:form-return code="anonymous.tool-record.form.label.return"/>
 </acme:form>

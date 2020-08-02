@@ -10,11 +10,8 @@
 
 administrator.tool-record.list.label.title = Título
 administrator.tool-record.list.label.activitySector = Sector
-administrator.tool-record.list.label.inventorsName = Inventor
 administrator.tool-record.list.label.description = Descripción
-administrator.tool-record.list.label.website = Sitio web
-administrator.tool-record.list.label.email = Email
-administrator.tool-record.list.label.indicator = Indicador
+administrator.tool-record.list.label.indication = Indicación
 administrator.tool-record.list.label.starsRate = Valoración
 
 administrator.tool-record.form.label.title = Título
@@ -23,7 +20,7 @@ administrator.tool-record.form.label.inventorsName = Inventor
 administrator.tool-record.form.label.description = Descripción
 administrator.tool-record.form.label.website = Sitio web
 administrator.tool-record.form.label.email = Email
-administrator.tool-record.form.label.indicator = Indicador
+anonymous.technology-record.form.label.indication = Indicacíon
 administrator.tool-record.form.label.starsRate = Valoración
 
 administrator.tool-record.form.button.update = Actualizar

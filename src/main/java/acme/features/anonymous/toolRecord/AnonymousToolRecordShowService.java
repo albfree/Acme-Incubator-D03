@@ -18,8 +18,6 @@ public class AnonymousToolRecordShowService implements AbstractShowService<Anony
 	@Autowired
 	AnonymousToolRecordRepository repository;
 
-	// AbstractListService<Administrator, TecnologyRecord>
-
 
 	@Override
 	public boolean authorise(final Request<ToolRecord> request) {
@@ -33,7 +31,7 @@ public class AnonymousToolRecordShowService implements AbstractShowService<Anony
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indicator", "starsRate");
+		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indication", "starsRate");
 	}
 
 	@Override

@@ -10,11 +10,8 @@
 
 authenticated.tool-record.list.label.title = Title
 authenticated.tool-record.list.label.activitySector = Sector
-authenticated.tool-record.list.label.inventorsName = Inventor
 authenticated.tool-record.list.label.description = Description
-authenticated.tool-record.list.label.website = Website
-authenticated.tool-record.list.label.email = Email
-authenticated.tool-record.list.label.indicator = Indicator
+authenticated.tool-record.list.label.indication = Indication
 authenticated.tool-record.list.label.starsRate = Rate
 
 authenticated.tool-record.form.label.title = Title
@@ -23,10 +20,6 @@ authenticated.tool-record.form.label.inventorsName = Inventor
 authenticated.tool-record.form.label.description = Description
 authenticated.tool-record.form.label.website = Website
 authenticated.tool-record.form.label.email = Email
-authenticated.tool-record.form.label.indicator = Indicator
+authenticated.tool-record.form.label.indication = Indication
 authenticated.tool-record.form.label.starsRate = Rate
-
-administrator.tool-record.form.button.update = Update
-administrator.tool-record.form.button.delete = Delete
-administrator.tool-record.form.button.create = Create
-authenticated.tool-record.form.button.return = Return
+authenticated.tool-record.form.label.return = Return

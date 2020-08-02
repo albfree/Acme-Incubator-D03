@@ -32,7 +32,7 @@ master.menu.bulletins.create = Crear Bulletins
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.notice.list = Lista de avisos
-master.menu.tecnology-record.list = Registros de tecnología
+master.menu.technology-record.list = Registros de tecnología
 master.menu.tool-record.list = Registros de herramientas
 master.menu.anonymous.albgueram = Enlace favorito de Alberto
 master.menu.anonymous.josescrue-favourite-link = Enlace favorito de josescrue
@@ -77,7 +77,7 @@ master.menu.administrator.challenge.list = Desafíos
 master.menu.administrator.challenge.create = Nuevo Desafío
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.tool-record.create = Crear Registro de herramientas
-master.menu.administrator.tecnology-record.create = Crear Registro de Tecnologia
+master.menu.administrator.technology-record.create = Crear Registro de Tecnologia
 
 # master.menu.authenticated ###################################################
 

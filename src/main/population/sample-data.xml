@@ -281,50 +281,50 @@
 		<property name="email" value="Inquiry@Inquiry.com" />
 	</bean>
 	
-	<!-- Tecnology records -->
+	<!-- Technology records -->
 	
-	<bean id="TecnologyRecord01" class="acme.entities.records.TecnologyRecord">
+	<bean id="TechnologyRecord01" class="acme.entities.records.TechnologyRecord">
 		<property name="title" value="Title01"/>
 		<property name="activitySector" value="Health"/>
 		<property name="inventorsName" value="John Smith"/>
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="open-source"/>
+		<property name="indication" value="open-source"/>
 		<property name="starsRate" value="5"/>
 	</bean>
 	
-	<bean id="TecnologyRecord02" class="acme.entities.records.TecnologyRecord">
+	<bean id="TechnologyRecord02" class="acme.entities.records.TechnologyRecord">
 		<property name="title" value="Title02"/>
 		<property name="activitySector" value="Health"/>
 		<property name="inventorsName" value="John Smith"/>
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="open-source"/>
+		<property name="indication" value="open-source"/>
 		<property name="starsRate" value="1"/>
 	</bean>
 	
-	<bean id="TecnologyRecord03" class="acme.entities.records.TecnologyRecord">
+	<bean id="TechnologyRecord03" class="acme.entities.records.TechnologyRecord">
 		<property name="title" value="Title03"/>
 		<property name="activitySector" value="Health"/>
 		<property name="inventorsName" value="John Smith"/>
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="closed-source"/>
+		<property name="indication" value="closed-source"/>
 		<property name="starsRate" value="3"/>
 	</bean>
 	
-	<bean id="TecnologyRecord04" class="acme.entities.records.TecnologyRecord">
+	<bean id="TechnologyRecord04" class="acme.entities.records.TechnologyRecord">
 		<property name="title" value="Title04"/>
 		<property name="activitySector" value="Health"/>
 		<property name="inventorsName" value="John Smith"/>
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="closed-source"/>
-		<property name="starsRate" value="2"/>
+		<property name="indication" value="closed-source"/>
+		<property name="starsRate"><null/></property>
 	</bean>
 	
 	<!-- Tool records -->
@@ -336,7 +336,7 @@
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="open-source"/>
+		<property name="indication" value="open-source"/>
 		<property name="starsRate" value="0"/>
 	</bean>
 	
@@ -347,7 +347,7 @@
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="open-source"/>
+		<property name="indication" value="open-source"/>
 		<property name="starsRate" value="3"/>
 	</bean>
 	
@@ -358,7 +358,7 @@
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="closed-source"/>
+		<property name="indication" value="closed-source"/>
 		<property name="starsRate" value="2"/>
 	</bean>
 	
@@ -369,8 +369,8 @@
 		<property name="description" value="This is a test"/>
 		<property name="website" value="http://www.example.com"/>
 		<property name="email" value="hcare@gmail.com"/>
-		<property name="indicator" value="closed-source"/>
-		<property name="starsRate" value="0"/>
+		<property name="indication" value="closed-source"/>
+		<property name="starsRate"><null/></property>
 	</bean>
 	
 	<!-- Users -->

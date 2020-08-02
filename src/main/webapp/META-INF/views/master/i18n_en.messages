@@ -32,7 +32,7 @@ master.menu.bulletins.create = Creates of Bulletins
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.notice.list = Notice's list
-master.menu.tecnology-record.list = Tecnology records
+master.menu.technology-record.list = Technology records
 master.menu.tool-record.list = Tool records
 master.menu.anonymous.albgueram = Alberto's favourite link
 master.menu.anonymous.josescrue-favourite-link = josescrue's favourite link
@@ -77,7 +77,7 @@ master.menu.administrator.challenge.list = Challenges
 master.menu.administrator.challenge.create = New Challenge
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.tool-record.create = Create Tool Record
-master.menu.administrator.tecnology-record.create = Create Tecnology Record
+master.menu.administrator.technology-record.create = Create Technology Record
 
 # master.menu.authenticated ###################################################
 

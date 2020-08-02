@@ -49,7 +49,7 @@
 
     drop table if exists `provider`;
 
-    drop table if exists `tecnology_record`;
+    drop table if exists `technology_record`;
 
     drop table if exists `tool_record`;
 

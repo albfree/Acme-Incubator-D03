@@ -473,7 +473,7 @@ Inquiry
       <h>209</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-TecnologyRecord
+TechnologyRecord
 --
 + title: String {NotBlank}
 + activitySector: String {NotBlank}
@@ -481,7 +481,7 @@ TecnologyRecord
 + description: String {NotBlank}
 + website: String {NotBlank,URL}
 + email: String {NotBlank, email}
-+ indicator: String {NotBlank, Pattern(regexp = "^(open-source|closed-source)$")}
++ indication: String {NotBlank, Pattern(regexp = "^(open-source|closed-source)$")}
 + starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
     <additional_attributes/>
   </element>
@@ -502,7 +502,7 @@ ToolRecord
 + description: String {NotBlank}
 + website: String {NotBlank,URL}
 + email: String {NotBlank, email}
-+ indicator: String {NotBlank, Pattern(regexp = "^(open-source|closed-source)$")}
++ indication: String {NotBlank, Pattern(regexp = "^(open-source|closed-source)$")}
 + starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
     <additional_attributes/>
   </element>

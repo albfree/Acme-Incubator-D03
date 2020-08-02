@@ -22,7 +22,7 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.tecnology-record.list" action="/anonymous/tecnology-record/list" />
+			<acme:menu-suboption code="master.menu.technology-record.list" action="/anonymous/technology-record/list" />
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.tool-record.list" action="/anonymous/tool-record/list" />
 			<acme:menu-separator />
@@ -74,7 +74,7 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.authenticated.inquiry.list" action="/authenticated/inquiry/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.tecnology-record.list" action="/authenticated/tecnology-record/list" />
+			<acme:menu-suboption code="master.menu.technology-record.list" action="/authenticated/technology-record/list" />
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.tool-record.list" action="/authenticated/tool-record/list" />
 		</acme:menu-option>
@@ -98,7 +98,7 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.tecnology-record.list" action="/administrator/tecnology-record/list" />
+			<acme:menu-suboption code="master.menu.technology-record.list" action="/administrator/technology-record/list" />
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.tool-record.list" action="/administrator/tool-record/list" />
 		</acme:menu-option>
@@ -113,7 +113,7 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.administrator.tecnology-record.create" action="/administrator/tecnology-record/create" />
+			<acme:menu-suboption code="master.menu.administrator.technology-record.create" action="/administrator/technology-record/create" />
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.tool-record.create" action="/administrator/tool-record/create" />
 		</acme:menu-option>

@@ -16,12 +16,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="anonymous.tool-record.list.label.title" path="title" width="10%"/>
-	<acme:list-column code="anonymous.tool-record.list.label.activitySector" path="activitySector" width="10%"/>
-	<acme:list-column code="anonymous.tool-record.list.label.inventorsName" path="inventorsName" width="10%"/>	
-	<acme:list-column code="anonymous.tool-record.list.label.description" path="description" width="30%"/>
-	<acme:list-column code="anonymous.tool-record.list.label.website" path="website" width="10%"/>
-	<acme:list-column code="anonymous.tool-record.list.label.email" path="email" width="10%"/>	
-	<acme:list-column code="anonymous.tool-record.list.label.indicator" path="indicator" width="10%"/>
+	<acme:list-column code="anonymous.tool-record.list.label.title" path="title" width="20%"/>
+	<acme:list-column code="anonymous.tool-record.list.label.activitySector" path="activitySector" width="10%"/>	
+	<acme:list-column code="anonymous.tool-record.list.label.description" path="description" width="40%"/>
+	<acme:list-column code="anonymous.tool-record.list.label.indication" path="indication" width="20%"/>
 	<acme:list-column code="anonymous.tool-record.list.label.starsRate" path="starsRate" width="10%"/>
 </acme:list>

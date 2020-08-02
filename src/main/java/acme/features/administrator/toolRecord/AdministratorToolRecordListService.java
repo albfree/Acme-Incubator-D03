@@ -20,8 +20,6 @@ public class AdministratorToolRecordListService implements AbstractListService<A
 	@Autowired
 	AdministratorToolRecordRepository repository;
 
-	// AbstractListService<Authenticated, TecnologyRecord>
-
 
 	@Override
 	public boolean authorise(final Request<ToolRecord> request) {
@@ -35,7 +33,7 @@ public class AdministratorToolRecordListService implements AbstractListService<A
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indicator", "starsRate");
+		request.unbind(entity, model, "title", "activitySector", "description", "indication", "starsRate");
 	}
 
 	@Override
