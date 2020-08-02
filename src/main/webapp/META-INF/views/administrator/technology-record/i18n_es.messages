@@ -20,7 +20,7 @@ administrator.technology-record.form.label.inventorsName = Inventor
 administrator.technology-record.form.label.description = Descripción
 administrator.technology-record.form.label.website = Sitio web
 administrator.technology-record.form.label.email = Email
-administrator.technology-record.form.label.indication = Indicacíon
+administrator.technology-record.form.label.indication = Indicación
 administrator.technology-record.form.label.starsRate = Valoración
 
 administrator.technology-record.form.button.update = Actualizar
