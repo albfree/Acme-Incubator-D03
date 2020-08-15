@@ -45,20 +45,20 @@ master.menu.anonymous.joslobtro-favourite-link = Enlace favorito de joslobtro
 master.menu.bulletins.list = Lista de bulletins
 master.menu.bulletins.create = Crear un bulletin
 
-master.menu.anonymous.guerrero-bulletin.list = Lista de bulletins de Guerrero
-master.menu.anonymous.guerreroBulletin.create = Crear bulletin de Guerrero
+master.menu.anonymous.guerrero-bulletin.list = Lista de boletines de Guerrero
+master.menu.anonymous.guerreroBulletin.create = Crear boletín de Guerrero
 
 master.menu.anonymous.escobar-bulletin.list = Lista de EscobarBulletins
 master.menu.anonymous.escobar-bulletin.create = Nuevo EscobarBulletin
 
-master.menu.bulletins.horrillo-bulletin.list = Horrillo bulletin
-master.menu.bulletins.horrillo-bulletin.create = Nuevo Horrillo bulletin
+master.menu.bulletins.horrillo-bulletin.list = Lista de HorrilloBulletins
+master.menu.bulletins.horrillo-bulletin.create = Nuevo HorrilloBulletin
 
-master.menu.anonymous.perezBulletin.list = Lista de boletines de Brayan
-master.menu.anonymous.perezBulletin.create = Crear boletín de Brayan
+master.menu.anonymous.perezBulletin.list = Lista de boletines de Perez
+master.menu.anonymous.perezBulletin.create = Crear boletín de Perez
 
-master.menu.anonymous.lobatoBulletin.list = Lista de lobatoBulletins
-master.menu.anonymous.lobatoBulletin.create = Crear lobatoBulletin
+master.menu.anonymous.lobatoBulletin.list = Lista de LobatoBulletins
+master.menu.anonymous.lobatoBulletin.create = Nuevo LobatoBulletin
 
 # master.menu.administrator ###################################################
 
